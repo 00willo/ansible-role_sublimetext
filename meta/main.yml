@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Graham Williamson
+  description: Install Sublime Text 3 on your machine. Supports both the dev and stable release channels.
+
+  license: license GPLv3
+
+  min_ansible_version: 2.x
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 27
+
+  galaxy_tags:
+  - workstation
+  - development
+  - editor
+  - ide
+
+dependencies: []
