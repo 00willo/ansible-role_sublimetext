@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Graham Williamson
   description: Install Sublime Text 3 on your machine. Supports both the dev and stable release channels.
