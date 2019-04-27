@@ -8,8 +8,12 @@ lint:
   options:
     config-file: .yamllint
 platforms:
-  - name: instance
+  - name: fedora27-instance
     image: fedora:27
+  - name: fedora28-instance
+    image: fedora:28
+  - name: fedora29-instance
+    image: fedora:29
 provisioner:
   name: ansible
   lint:
