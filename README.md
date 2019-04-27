@@ -1,6 +1,8 @@
 Role Name
 =========
 
+[![Build Status](https://travis-ci.org/00willo/ansible-role_sublimetext.svg?branch=master)](https://travis-ci.org/00willo/ansible-role_sublimetext)
+
 A role to install Sublime Text 3.
 
 Requirements
