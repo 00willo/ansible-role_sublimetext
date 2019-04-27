@@ -1,7 +1,7 @@
 ---
 
 - name: Add Sublime Text RPM GPG key
-  rpm_key:  
+  rpm_key:
     key: https://download.sublimetext.com/sublimehq-rpm-pub.gpg
     state: present
 

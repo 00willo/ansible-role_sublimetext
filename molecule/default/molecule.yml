@@ -1,0 +1,29 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+lint:
+  name: yamllint
+  options:
+    config-file: .yamllint
+platforms:
+  - name: fedora27-instance
+    image: fedora:27
+  - name: fedora28-instance
+    image: fedora:28
+  - name: fedora29-instance
+    image: fedora:29
+provisioner:
+  name: ansible
+  lint:
+    name: ansible-lint
+  log: true
+scenario:
+  name: default
+verifier:
+  name: testinfra
+  lint:
+    name: flake8
+  options:
+    verbose: true
