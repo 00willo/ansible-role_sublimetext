@@ -8,9 +8,7 @@ A role to install Sublime Text 3.
 Requirements
 ------------
 
-None specifically.
-
-I haven't tested directly against the various ansible versions, but it was tested against 2.5. However after doing a documentation review of the various ansible modules used, it should work fine on ansible >= 2.1
+None.
 
 Role Variables
 --------------
@@ -27,7 +25,7 @@ The default is stable, and only the dev channel builds are available to licensed
 Dependencies
 ------------
 
-None
+None.
 
 Example Playbook
 ----------------
