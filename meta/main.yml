@@ -3,7 +3,7 @@ galaxy_info:
   author: Graham Williamson
   description: Install Sublime Text 3 on your machine. Supports both the dev and stable release channels.
 
-  license: license GPLv3
+  license: license MIT
 
   min_ansible_version: 2.x
 
